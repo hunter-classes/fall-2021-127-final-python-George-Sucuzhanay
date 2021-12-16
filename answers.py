@@ -43,6 +43,7 @@ def BinConvert(bin):
     for i in range(len(a1)):
         if a1[i] == "0":
             count = count + 1
+            # accessing the next indice
             if a1[(i+1)] == 1:
                 count = count + 2
             if a1[(i+1)] == 0:
